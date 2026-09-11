@@ -1,5 +1,6 @@
 #pragma once
 
+
 class SomeDutContainer {
 public:
     double dut(double mjd) const;
