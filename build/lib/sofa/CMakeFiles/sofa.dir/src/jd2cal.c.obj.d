@@ -1,0 +1,11 @@
+lib/sofa/CMakeFiles/sofa.dir/src/jd2cal.c.obj: \
+ C:\Users\Yaraslau\Desktop\!!!\lib\sofa\src\jd2cal.c \
+ C:\Users\Yaraslau\Desktop\!!!\lib\sofa\src\sofa.h \
+ C:/msys64/ucrt64/include/math.h C:/msys64/ucrt64/include/crtdefs.h \
+ C:/msys64/ucrt64/include/corecrt.h C:/msys64/ucrt64/include/_mingw.h \
+ C:/msys64/ucrt64/include/_mingw_mac.h \
+ C:/msys64/ucrt64/include/_mingw_secapi.h \
+ C:/msys64/ucrt64/include/vadefs.h \
+ C:\Users\Yaraslau\Desktop\!!!\lib\sofa\src\sofam.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/float.h \
+ C:/msys64/ucrt64/include/float.h

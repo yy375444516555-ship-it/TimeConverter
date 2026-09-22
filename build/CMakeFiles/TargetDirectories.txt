@@ -1,0 +1,6 @@
+C:/Users/Yaraslau/Desktop/!!!/build/CMakeFiles/TimeProject.dir
+C:/Users/Yaraslau/Desktop/!!!/build/CMakeFiles/edit_cache.dir
+C:/Users/Yaraslau/Desktop/!!!/build/CMakeFiles/rebuild_cache.dir
+C:/Users/Yaraslau/Desktop/!!!/build/lib/sofa/CMakeFiles/sofa.dir
+C:/Users/Yaraslau/Desktop/!!!/build/lib/sofa/CMakeFiles/edit_cache.dir
+C:/Users/Yaraslau/Desktop/!!!/build/lib/sofa/CMakeFiles/rebuild_cache.dir
