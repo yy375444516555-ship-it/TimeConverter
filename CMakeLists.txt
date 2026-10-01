@@ -7,18 +7,23 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_subdirectory(lib/sofa)
+add_subdirectory(lib/eigen EXCLUDE_FROM_ALL)
 
 add_executable(${PROJECT_NAME}
     src/main.cpp
     src/classTime.cpp
     src/EOP.cpp
+    src/transformation.cpp
 )
 
 target_include_directories(${PROJECT_NAME} PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/include
 )
 
-target_link_libraries(${PROJECT_NAME} PRIVATE sofa)
+target_link_libraries(${PROJECT_NAME} PRIVATE
+    sofa
+    Eigen3::Eigen
+)
 
 if(MSVC)
     target_compile_options(${PROJECT_NAME} PRIVATE /W4)

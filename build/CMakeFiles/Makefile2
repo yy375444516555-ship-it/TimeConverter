@@ -78,7 +78,84 @@ preinstall: lib/sofa/preinstall
 # The main recursive "clean" target.
 clean: CMakeFiles/TimeProject.dir/clean
 clean: lib/sofa/clean
+clean: lib/eigen/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory lib/eigen
+
+# Recursive "all" directory target.
+lib/eigen/all: lib/eigen/unsupported/all
+.PHONY : lib/eigen/all
+
+# Recursive "codegen" directory target.
+lib/eigen/codegen: lib/eigen/unsupported/codegen
+.PHONY : lib/eigen/codegen
+
+# Recursive "preinstall" directory target.
+lib/eigen/preinstall: lib/eigen/unsupported/preinstall
+.PHONY : lib/eigen/preinstall
+
+# Recursive "clean" directory target.
+lib/eigen/clean: lib/eigen/unsupported/clean
+.PHONY : lib/eigen/clean
+
+#=============================================================================
+# Directory level rules for directory lib/eigen/unsupported
+
+# Recursive "all" directory target.
+lib/eigen/unsupported/all: lib/eigen/unsupported/Eigen/all
+.PHONY : lib/eigen/unsupported/all
+
+# Recursive "codegen" directory target.
+lib/eigen/unsupported/codegen: lib/eigen/unsupported/Eigen/codegen
+.PHONY : lib/eigen/unsupported/codegen
+
+# Recursive "preinstall" directory target.
+lib/eigen/unsupported/preinstall: lib/eigen/unsupported/Eigen/preinstall
+.PHONY : lib/eigen/unsupported/preinstall
+
+# Recursive "clean" directory target.
+lib/eigen/unsupported/clean: lib/eigen/unsupported/Eigen/clean
+.PHONY : lib/eigen/unsupported/clean
+
+#=============================================================================
+# Directory level rules for directory lib/eigen/unsupported/Eigen
+
+# Recursive "all" directory target.
+lib/eigen/unsupported/Eigen/all: lib/eigen/unsupported/Eigen/CXX11/all
+.PHONY : lib/eigen/unsupported/Eigen/all
+
+# Recursive "codegen" directory target.
+lib/eigen/unsupported/Eigen/codegen: lib/eigen/unsupported/Eigen/CXX11/codegen
+.PHONY : lib/eigen/unsupported/Eigen/codegen
+
+# Recursive "preinstall" directory target.
+lib/eigen/unsupported/Eigen/preinstall: lib/eigen/unsupported/Eigen/CXX11/preinstall
+.PHONY : lib/eigen/unsupported/Eigen/preinstall
+
+# Recursive "clean" directory target.
+lib/eigen/unsupported/Eigen/clean: lib/eigen/unsupported/Eigen/CXX11/clean
+.PHONY : lib/eigen/unsupported/Eigen/clean
+
+#=============================================================================
+# Directory level rules for directory lib/eigen/unsupported/Eigen/CXX11
+
+# Recursive "all" directory target.
+lib/eigen/unsupported/Eigen/CXX11/all:
+.PHONY : lib/eigen/unsupported/Eigen/CXX11/all
+
+# Recursive "codegen" directory target.
+lib/eigen/unsupported/Eigen/CXX11/codegen:
+.PHONY : lib/eigen/unsupported/Eigen/CXX11/codegen
+
+# Recursive "preinstall" directory target.
+lib/eigen/unsupported/Eigen/CXX11/preinstall:
+.PHONY : lib/eigen/unsupported/Eigen/CXX11/preinstall
+
+# Recursive "clean" directory target.
+lib/eigen/unsupported/Eigen/CXX11/clean:
+.PHONY : lib/eigen/unsupported/Eigen/CXX11/clean
 
 #=============================================================================
 # Directory level rules for directory lib/sofa

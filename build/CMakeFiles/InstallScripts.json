@@ -2,7 +2,11 @@
 	"InstallScripts" : 
 	[
 		"C:/Users/Yaraslau/Desktop/!!!/build/cmake_install.cmake",
-		"C:/Users/Yaraslau/Desktop/!!!/build/lib/sofa/cmake_install.cmake"
+		"C:/Users/Yaraslau/Desktop/!!!/build/lib/sofa/cmake_install.cmake",
+		"C:/Users/Yaraslau/Desktop/!!!/build/lib/eigen/cmake_install.cmake",
+		"C:/Users/Yaraslau/Desktop/!!!/build/lib/eigen/unsupported/cmake_install.cmake",
+		"C:/Users/Yaraslau/Desktop/!!!/build/lib/eigen/unsupported/Eigen/cmake_install.cmake",
+		"C:/Users/Yaraslau/Desktop/!!!/build/lib/eigen/unsupported/Eigen/CXX11/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
