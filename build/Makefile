@@ -259,6 +259,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TimeProject.dir\build.make CMakeFiles/TimeProject.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/transformation.obj: src/transformation.cpp.obj
+.PHONY : src/transformation.obj
+
+# target to build an object file
+src/transformation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TimeProject.dir\build.make CMakeFiles/TimeProject.dir/src/transformation.cpp.obj
+.PHONY : src/transformation.cpp.obj
+
+src/transformation.i: src/transformation.cpp.i
+.PHONY : src/transformation.i
+
+# target to preprocess a source file
+src/transformation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TimeProject.dir\build.make CMakeFiles/TimeProject.dir/src/transformation.cpp.i
+.PHONY : src/transformation.cpp.i
+
+src/transformation.s: src/transformation.cpp.s
+.PHONY : src/transformation.s
+
+# target to generate assembly for a file
+src/transformation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TimeProject.dir\build.make CMakeFiles/TimeProject.dir/src/transformation.cpp.s
+.PHONY : src/transformation.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -282,6 +306,9 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/transformation.obj
+	@echo ... src/transformation.i
+	@echo ... src/transformation.s
 .PHONY : help
 
 

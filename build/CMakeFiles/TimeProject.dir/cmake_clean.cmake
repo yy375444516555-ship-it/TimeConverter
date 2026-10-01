@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/TimeProject.dir/src/classTime.cpp.obj.d"
   "CMakeFiles/TimeProject.dir/src/main.cpp.obj"
   "CMakeFiles/TimeProject.dir/src/main.cpp.obj.d"
+  "CMakeFiles/TimeProject.dir/src/transformation.cpp.obj"
+  "CMakeFiles/TimeProject.dir/src/transformation.cpp.obj.d"
   "TimeProject.exe"
   "TimeProject.exe.manifest"
   "TimeProject.pdb"

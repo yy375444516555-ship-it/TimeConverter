@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Yaraslau/Desktop/!!!/src/EOP.cpp" "CMakeFiles/TimeProject.dir/src/EOP.cpp.obj" "gcc" "CMakeFiles/TimeProject.dir/src/EOP.cpp.obj.d"
   "C:/Users/Yaraslau/Desktop/!!!/src/classTime.cpp" "CMakeFiles/TimeProject.dir/src/classTime.cpp.obj" "gcc" "CMakeFiles/TimeProject.dir/src/classTime.cpp.obj.d"
   "C:/Users/Yaraslau/Desktop/!!!/src/main.cpp" "CMakeFiles/TimeProject.dir/src/main.cpp.obj" "gcc" "CMakeFiles/TimeProject.dir/src/main.cpp.obj.d"
+  "C:/Users/Yaraslau/Desktop/!!!/src/transformation.cpp" "CMakeFiles/TimeProject.dir/src/transformation.cpp.obj" "gcc" "CMakeFiles/TimeProject.dir/src/transformation.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
