@@ -187,6 +187,19 @@ sofa/fast:
 	$(MAKE) $(MAKESILENT) -f lib\sofa\CMakeFiles\sofa.dir\build.make lib/sofa/CMakeFiles/sofa.dir/build
 .PHONY : sofa/fast
 
+#=============================================================================
+# Target rules for targets named calceph
+
+# Build rule for target.
+calceph: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 calceph
+.PHONY : calceph
+
+# fast build rule for target.
+calceph/fast:
+	$(MAKE) $(MAKESILENT) -f lib\calceph\CMakeFiles\calceph.dir\build.make lib/calceph/CMakeFiles/calceph.dir/build
+.PHONY : calceph/fast
+
 src/EOP.obj: src/EOP.cpp.obj
 .PHONY : src/EOP.obj
 
@@ -296,6 +309,7 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... TimeProject
+	@echo ... calceph
 	@echo ... sofa
 	@echo ... src/EOP.obj
 	@echo ... src/EOP.i

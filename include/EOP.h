@@ -27,6 +27,5 @@ public:
     //Выполняет интерполяцию (xp, yp)
     std::tuple<double, double> pole(double mjd) const;
 
-
 };
 

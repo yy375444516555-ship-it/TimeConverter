@@ -36,3 +36,10 @@ C:/Users/Yaraslau/Desktop/!!!/build/lib/eigen/unsupported/Eigen/CXX11/CMakeFiles
 C:/Users/Yaraslau/Desktop/!!!/build/lib/eigen/unsupported/Eigen/CXX11/CMakeFiles/install.dir
 C:/Users/Yaraslau/Desktop/!!!/build/lib/eigen/unsupported/Eigen/CXX11/CMakeFiles/install/local.dir
 C:/Users/Yaraslau/Desktop/!!!/build/lib/eigen/unsupported/Eigen/CXX11/CMakeFiles/install/strip.dir
+C:/Users/Yaraslau/Desktop/!!!/build/lib/calceph/CMakeFiles/calceph.dir
+C:/Users/Yaraslau/Desktop/!!!/build/lib/calceph/CMakeFiles/edit_cache.dir
+C:/Users/Yaraslau/Desktop/!!!/build/lib/calceph/CMakeFiles/rebuild_cache.dir
+C:/Users/Yaraslau/Desktop/!!!/build/lib/calceph/CMakeFiles/list_install_components.dir
+C:/Users/Yaraslau/Desktop/!!!/build/lib/calceph/CMakeFiles/install.dir
+C:/Users/Yaraslau/Desktop/!!!/build/lib/calceph/CMakeFiles/install/local.dir
+C:/Users/Yaraslau/Desktop/!!!/build/lib/calceph/CMakeFiles/install/strip.dir
