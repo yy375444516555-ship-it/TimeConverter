@@ -1,0 +1,15 @@
+# CMake build
+build/
+
+# Compiled files
+*.o
+*.obj
+*.exe
+*.dll
+*.a
+*.lib
+
+# IDE files
+.vs/
+.vscode/
+.idea/
