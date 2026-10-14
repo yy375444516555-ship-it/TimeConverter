@@ -15,6 +15,8 @@ add_executable(${PROJECT_NAME}
     src/classTime.cpp
     src/EOP.cpp
     src/transformation.cpp
+    src/Ephemeris.cpp
+    src/ThirdBodyGravity.cpp
 )
 
 target_include_directories(${PROJECT_NAME} PRIVATE
