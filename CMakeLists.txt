@@ -9,6 +9,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 add_subdirectory(lib/sofa)
 add_subdirectory(lib/eigen EXCLUDE_FROM_ALL)
 add_subdirectory(lib/calceph EXCLUDE_FROM_ALL)
+add_subdirectory(lib/geographiclib EXCLUDE_FROM_ALL)
 
 add_executable(${PROJECT_NAME}
     src/main.cpp
@@ -27,6 +28,7 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
     sofa
     Eigen3::Eigen
     calceph
+    GeographicLib
 )
 
 if(MSVC)
